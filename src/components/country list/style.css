@@ -1,8 +1,13 @@
 .country-list{
     display: grid;
     gap: 20px;
+    cursor: pointer;
 }
 
+.country-list .btn{
+    background-color: transparent;
+    box-shadow: none;
+}
 
 @media only screen and (min-width: 1200px) {
     .country-list{
@@ -25,5 +30,11 @@
 @media only screen and (max-width: 768px) {
     .country-list{
         grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .country-list{
+        grid-template-columns: repeat(2,1fr);
     }
 }
