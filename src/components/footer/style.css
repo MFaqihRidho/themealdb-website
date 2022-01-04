@@ -1,0 +1,11 @@
+footer{
+    z-index: 999;
+    position: relative;
+    display: flex;
+    top: 480px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E9C46A;
+    color: white;
+}

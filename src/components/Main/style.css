@@ -1,0 +1,30 @@
+#main{
+    background-color: #264653;
+    min-height:2000px;
+    position: relative;
+    top: 480px;
+    padding: 50px;
+}
+
+#main.open{
+    top: 356px;
+    transition: top 0.3s ease;
+}
+
+.main-container{
+    position: relative;
+}
+
+.main-title,.second-title{
+    color: white;
+    font-weight: 600;
+}
+
+a{
+    text-decoration:none;
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: translateY(-10px);
+}

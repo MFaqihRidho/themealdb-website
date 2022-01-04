@@ -1,0 +1,32 @@
+.key-container{
+    gap: 10px;
+    grid-template-columns: repeat(26,1fr);
+}
+
+.key{
+    font-size:35px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .key-container{
+        grid-template-columns: repeat(8,1fr);
+        gap: 50px;
+    }
+    .key{
+        background-color: #E76F51;
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .key-container{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .key-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

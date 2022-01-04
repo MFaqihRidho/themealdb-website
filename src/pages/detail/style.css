@@ -1,0 +1,34 @@
+.detail-container{
+    background-color: #264653 ;
+    min-height: 700px;
+    width: 100%;
+    position: absolute;
+}
+
+.meal-thumb{
+    width: 80%;
+    border-radius:20px
+}
+
+.img-container{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.instructions{
+    width: 90%;
+}
+
+.iframe-container{
+    position: relative;
+    width: 90%;
+    padding-bottom: 56.25%; 
+    margin: 10px auto;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
