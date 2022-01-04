@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Mealdb website",
+  "name": "mealdb website using themealdb API",
   "icons": [
     {
       "src": "favicon.ico",
