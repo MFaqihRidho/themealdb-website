@@ -1,17 +1,21 @@
-import './style.css'
+import "./style.css";
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <footer>
-            <p>Copyright 2022 Created by <a href="https://github.com/MFaqihRidho">M Faqih Ridho</a> Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-<<<<<<< HEAD
-            <p>Loading......</p>
-=======
-
-            <p>Edit</p>
->>>>>>> edit
+            <p>
+                Copyright 2022 Created by{" "}
+                <a href="https://github.com/MFaqihRidho">M Faqih Ridho</a> Icons
+                made by{" "}
+                <a
+                    href="https://www.flaticon.com/free-icons/menu"
+                    title="menu icons"
+                >
+                    Menu icons created by Freepik - Flaticon
+                </a>
+            </p>
         </footer>
-    )
+    );
 }
 
 export default Footer;
